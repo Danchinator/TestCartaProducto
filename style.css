@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700");
+
+:root {
+    --main_bg: #000000;
+    --clr_txt: #ffffff;
+}
+
+.container {
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+    width: 520px;
+    height: 350px;
+    background: var(--main_bg);
+    box-shadow: 5px 5px 15px rgba(186, 126, 126, 0.5);
+    border-radius: 10px;
+}
+
+.categoria {
+    font-size: 0.6em;
+    color: var(--clr_txt);
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.prodNomb {
+    font-size: 1.2em;
+    color: var(--clr_txt);
+    margin-top: -5px;
+    text-transform: uppercase;
+}
+
+.precio {
+    color: var(--clr_txt);
+    margin-top: -5px;
+    text-transform: uppercase;
+}
+
+.desc {
+    text-transform: none;
+    letter-spacing: 0;
+    margin-bottom: 17px;
+    color: #4e4e4e;
+    font-size: 0.7em;
+    line-height: 1.6em;
+    margin-right: 25px;
+    text-align: justify;
+    text-transform: uppercase;
+}
+
+.images > img {
+    width: 290px;
+    margin-top: 47px;
+}
+
+.product {
+    position: absolute;
+    width: 40%;
+    height: 100%;
+    top: 10%;
+    left: 60%;
+}
+
+button {
+    background: #ffffff;
+    padding: 10px;
+    display: inline-block;
+    outline: 0;
+    border: 0;
+    margin: 0px;
+    border-radius: 5px;
+    color: #000000;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #c4c4c4;
+    transition: all 0.4s ease-in-out;
+}
+
+.buttons{
+    display:flex;
+    justify-content: flex-start;
+}
+
+.like {
+    width: 40px;
+    margin-left: 20px;
+}
